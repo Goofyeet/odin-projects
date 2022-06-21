@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(223, 169, 54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border{
+   border-radius: 20px; 
+}
+
+.head-container{
+    color: red;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    margin: 5px auto;
+    width: 500px;
+}
+
+.recipe-container{
+    background-color: green;
+    padding: 30px;
+}
+
+button{
+    font-size:20px;
+    width: 250px;
+    text-align: left;
+    border-width: 2px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.button-container{
+    width: auto;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
