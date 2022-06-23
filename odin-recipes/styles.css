@@ -3,8 +3,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.border{
+*{
    border-radius: 20px; 
+   /*border: 2px solid red;*/
+   box-sizing: border-box;
 }
 
 .head-container{
@@ -21,20 +23,35 @@ body{
     padding: 30px;
 }
 
-button{
+.link{
     font-size:20px;
     width: 250px;
     text-align: left;
     border-width: 2px;
-    padding: 10px;
     margin: 2px;
+    background-color: white;
 }
 
-.button-container{
-    width: auto;
-    margin: auto;
+a{
+    padding: auto;
 }
 
 ul{
     list-style-type: none;
 }
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
